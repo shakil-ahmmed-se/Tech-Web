@@ -3,6 +3,8 @@ import Header from "./compenents/Header";
 import Hero from "./compenents/Hero";
 import InquiryButton from "./compenents/InquiryButton";
 import About from "./compenents/About";
+import Services from "./compenents/Services";
+
 
 export default function Home() {
   return (
@@ -10,6 +12,8 @@ export default function Home() {
       <Header/>
       <Hero/>
       <About/>
+      <Services/>
+
     </div>
   );
 }
