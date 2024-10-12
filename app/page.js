@@ -4,6 +4,10 @@ import Hero from "./compenents/Hero";
 import InquiryButton from "./compenents/InquiryButton";
 import About from "./compenents/About";
 import Services from "./compenents/Services";
+import Portfolio from "./compenents/Portfolio";
+import Feedback from "./compenents/Feedback";
+import FAQ from "./compenents/FAQ";
+
 
 
 export default function Home() {
@@ -13,6 +17,9 @@ export default function Home() {
       <Hero/>
       <About/>
       <Services/>
+      <Portfolio/>
+      <Feedback/>
+      <FAQ/>
 
     </div>
   );
