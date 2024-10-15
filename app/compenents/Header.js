@@ -10,13 +10,13 @@ const Header = () => {
             Tech<span className='text-black'>Web</span>
           </div>
           <ul className="flex space-x-6 text-gray-700">
-            <li><Link href="/about">About us</Link></li>
-            <li><Link href="/services">Services</Link></li>
-            <li><Link href="/portfolio">Portfolio</Link></li>
-            <li><Link href="/feedback">Feedback</Link></li>
-            <li><Link href="/contact">Contact</Link></li>
+            <li><Link href="#">About us</Link></li>
+            <li><Link href="#">Services</Link></li>
+            <li><Link href="#">Portfolio</Link></li>
+            <li><Link href="#">Feedback</Link></li>
+            <li><Link href="#">Contact</Link></li>
           </ul>
-          <Link href="/inquiry">
+          <Link href="#">
             <InquiryButton/>
           </Link>
         </nav>

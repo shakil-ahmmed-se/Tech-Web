@@ -2,7 +2,7 @@ import React from "react";
 
 const InquiryButton = () => {
   return (
-    <button className="bg-blue-500 text-white px-4 py-2 rounded-md flex gap-1 pt-2">
+    <button className="bg-blue-500 text-white px-6 py-3 rounded-md flex gap-2 pt-2">
       <svg
         width="18"
         height="18"

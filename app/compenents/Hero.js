@@ -9,7 +9,7 @@ import SideBarColor from "./SideBarColor";
 const Hero = () => {
   return (
     <section>
-      <div className="container mx-auto flex justify-start items-center py-5 px-6">
+      <div className="container mx-auto flex justify-start items-center ">
         <SideBarColor/>
           
         <div className="max-w-lg">

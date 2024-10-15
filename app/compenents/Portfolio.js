@@ -6,7 +6,7 @@ import SideBarColor from "./SideBarColor";
 
 const Portfolio = () => {
   return (
-    <section className="container flex text-white px-4">
+    <section className="container flex text-white ">
           <SideBarColor/>  
       <div className="max-w-7xl mx-auto container">
         

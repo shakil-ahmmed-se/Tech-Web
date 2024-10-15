@@ -44,7 +44,7 @@ const FAQ = () => {
     return (
         <section className="container flex text-white">
             <SideBarColor/>
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-full mx-auto">
           {/* FAQ Header */}
           <div className="text-start mb-12">
             <h2 className="text-4xl font-bold">Frequently Asked Questions</h2>
@@ -56,7 +56,7 @@ const FAQ = () => {
           {/* FAQ Accordion */}
           <div className="space-y-4">
             {faqs.map((faq, index) => (
-              <div key={index} className="border border-gray-700 rounded-lg bg-[#F5F5F54D]">
+              <div key={index} className="border border-gray-700 rounded-lg bg-[#F5F5F54D] ">
                 <button
                   onClick={() => toggleFAQ(index)}
                   className="w-full flex justify-between items-center p-4 text-left text-gray-200 hover:bg-gray-700 focus:outline-none"
